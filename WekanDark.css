@@ -252,6 +252,10 @@ hr {
     margin-bottom: 2px;
 	background: #081C34;
 }
+.checklist-item:hover {
+    margin-bottom: 2px;
+	background: #051222;
+}
 
 .attachments-galery .attachment-item {
 	width: 31.33%;
