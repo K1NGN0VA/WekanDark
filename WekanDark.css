@@ -271,6 +271,14 @@ hr {
 	background: #152642;
 }
 
+.attachment-thumbnail {
+    background: #051222;
+}
+
+.attachment-details {
+    background: #051222;
+}
+
 textarea.editor {
 	resize: none;
 	padding-bottom: 22px;
