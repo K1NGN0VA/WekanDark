@@ -78,6 +78,16 @@ input.js-new-board-title {
 	color: #fff;    
 }
 
+.list-composer .list-name-input:not(:hover) {
+	background: #051222;
+	color: #fff;        
+}
+
+.list-composer .list-name-input:hover {
+	background: #051222;
+	color: #fff;        
+}
+
 .board-list .board-list-item {
     overflow: hidden;
     height: 120px;
@@ -255,6 +265,26 @@ hr {
 	color: #dbdbdb;
 	margin: 15px 0;
 	padding: 0;
+}
+
+textarea.js-edit-checklist-item:not(:hover) {
+	background: #051222;
+	color: #fff;       
+}
+
+textarea.js-edit-checklist-item:hover {
+	background: #051222;
+	color: #fff;       
+}
+
+textarea.js-add-checklist-item:not(:hover) {
+	background: #051222;
+	color: #fff;       
+}
+
+textarea.js-add-checklist-item:hover {
+	background: #051222;
+	color: #fff;       
 }
 
 .checklist {
