@@ -12,7 +12,6 @@ This CSS isnt pretty.
 
 
     $ sudo cp /snap/wekan/current/programs/web.browser/head.html head.html
-    $ sudo nano head.html
     $ sudo echo '<link type="text/css" rel="stylesheet" href="https://k1ngn0va.github.io/WekanDark/WekanDark.css" />' >> head.html
     $ sudo mount --bind -o nodev,ro head.html /snap/wekan/current/programs/web.browser/head.html 
     $ systemctl restart snap.wekan.wekan
