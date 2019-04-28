@@ -173,6 +173,35 @@ hr {
 	right: 0;
 }
 
+.minicard-navy {
+    background-color: #0E2C62;
+}
+.minicard-navy:hover {
+    background-color: #0E2C62;
+}
+
+
+
+.minicard .minicard-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    height: 130px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: -9px -8px 15px -8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+  filter: drop-shadow(0px 5px 5px #222);
+}
+
+
+
 .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
 	margin-right: 0;
 	background: #081C34;
@@ -213,6 +242,15 @@ hr {
 	color: #dbdbdb;
 	margin: 15px 0;
 	padding: 0;
+}
+
+.checklist {
+    margin-bottom: 2px;
+	background: #081C34;
+}
+.checklist-item {
+    margin-bottom: 2px;
+	background: #081C34;
 }
 
 .attachments-galery .attachment-item {
