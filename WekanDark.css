@@ -55,6 +55,19 @@ button {
 	background-color: #151f29;
 }
 
+.auth-layout .auth-dialog .at-form input {
+    width: 100%;
+    color: #000;
+}
+
+.at-title{
+    color: #000;
+}
+
+.at-error{
+    color: #000;
+}
+
 input.js-new-board-title:focus {
 	background: #051222;
 	color: #fff;    
