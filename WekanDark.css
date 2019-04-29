@@ -108,6 +108,11 @@ textarea.js-board-desc:not(:hover) {
 	color: #fff;    
 }
 
+textarea.js-board-desc:hover {
+	background: #051222;
+	color: #fff;    
+}
+
 .board-list .board-list-item {
     overflow: hidden;
     height: 120px;
