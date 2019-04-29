@@ -88,6 +88,26 @@ input.js-new-board-title {
 	color: #fff;        
 }
 
+input.js-board-name:hover {
+	background: #051222;
+	color: #fff;     
+}
+
+input.js-board-name:not(:hover) {
+	background: #051222;
+	color: #fff;    
+}
+
+input.js-board-desc:hover {
+	background: #051222;
+	color: #fff;     
+}
+
+input.js-board-desc:not(:hover) {
+	background: #051222;
+	color: #fff;    
+}
+
 .board-list .board-list-item {
     overflow: hidden;
     height: 120px;
