@@ -103,7 +103,7 @@ input.js-board-desc:hover {
 	color: #fff;     
 }
 
-input.js-board-desc:not(:hover) {
+textarea.js-board-desc:not(:hover) {
 	background: #051222;
 	color: #fff;    
 }
